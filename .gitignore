@@ -1,0 +1,13 @@
+﻿.buildpath
+.idea
+.project
+.settings
+**/_compile/**
+**/_thumbnail/**
+!/_compile/robots.txt
+/config/config.php
+composer.lock
+log/**
+logs/**
+tmp/**
+vendor
