@@ -18,7 +18,7 @@ class boardModel extends DBManager
             'content' => $board['content'],
             'writer' => $board['writer'],
         );
-        $query = $this->table('tbl_board')->insert($data);
+        return $insert = $this->table('tbl_board')->insert($data);
     }
 
     function listAll()
@@ -110,14 +110,22 @@ class boardModel extends DBManager
 
     function readRecord($bno)
     {
-        $query = $this->table('tbl_board')->where('bno', '=', $bno);
-        logger($query->getQuery()->getRawSql());
-        return $query->setFetchMode(\PDO::FETCH_ASSOC)->first();
+        try {
+            $this->pdo->beginTransaction();
+            $this->updateViewCnt($bno);
+            $query = $this->table('tbl_board')->where('bno', '=', $bno);
+            logger($query->getQuery()->getRawSql());
+            $this->pdo->commit();
+            return $query->setFetchMode(\PDO::FETCH_ASSOC)->first();
+        } catch (\Exception $e) {
+            $this->pdo->rollBack();
+            return $this;
+        }
     }
 
     function removeRecord($bno)
     {
-        $query = $this->table('tbl_board')->where('bno', '=', $bno)->delete();
+        $delete = $this->table('tbl_board')->where('bno', '=', $bno)->delete();
     }
 
     function modifyRecord($board)
@@ -128,6 +136,14 @@ class boardModel extends DBManager
             'writer' => $board['writer'],
             "updatedate" => $this->raw("NOW()")
         );
-        $query = $this->table('tbl_board')->where('bno', $board['bno'])->update($data);
+        return $update = $this->table('tbl_board')->where('bno', $board['bno'])->update($data);
+    }
+
+    function updateViewCnt($bno)
+    {
+        $data = array(
+            $bno,
+        );
+        return $update = $this->query('update tbl_board set viewcnt = viewcnt+1 where bno=?', $data);
     }
 }

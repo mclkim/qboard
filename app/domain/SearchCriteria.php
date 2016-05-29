@@ -35,11 +35,6 @@ class SearchCriteria extends Criteria
         return $this->keyword;
     }
 
-    public function toString()
-    {
-        return "SearchCriteria [searchType=" . $this->searchType . ", keyword=" . $this->keyword . "]";
-    }
-
     public function getSearchCriteria()
     {
         return array_merge($this->getCriteria(),

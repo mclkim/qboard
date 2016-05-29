@@ -52,11 +52,6 @@ class Criteria
         return $this->perPageNum;
     }
 
-    public function toString()
-    {
-        return "Criteria [page=" . $this->page . ", perPageNum=" . $this->perPageNum . "]";
-    }
-
     public function getCriteria()
     {
         return array(
