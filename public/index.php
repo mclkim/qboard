@@ -26,6 +26,9 @@ $loader = require_once BASE_PATH . '/vendor/autoload.php';
  * |
  */
 $loader->addPsr4('App\\', BASE_PATH . '/app');
+$loader->addClassMap ( [
+    'PluploadHandler' => BASE_PATH . '/vendor/mclkim/kaiser/src/Plupload/PluploadHandler.php'
+] );
 
 // DIC configuration
 $container = new Kaiser\Container ();

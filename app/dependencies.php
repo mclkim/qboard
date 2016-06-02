@@ -5,6 +5,11 @@
  * Date: 2016-05-23
  * Time: 오후 2:56
  */
+// https://github.com/hassankhan/config
+$container ['config'] = function ($c) {
+    return new \Noodlehaus\Config (BASE_PATH . '/config/config.php');
+};
+
 // www.xtac.net
 $container ['template'] = function ($c) {
     $tpl = new \Template_ ();

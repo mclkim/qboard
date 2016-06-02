@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Noodlehaus\\' => array($vendorDir . '/hassankhan/config/src'),
     'Katzgrau\\KLogger\\' => array($vendorDir . '/katzgrau/klogger/src'),
     'Kaiser\\' => array($vendorDir . '/mclkim/kaiser/src'),
     'Aura\\Web\\_Config\\' => array($vendorDir . '/aura/web/config'),

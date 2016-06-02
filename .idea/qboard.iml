@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/vendor/aura/web" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/hassankhan/config" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/katzgrau/klogger" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/lancerhe/php-crypt" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/mclkim/kaiser" />
@@ -19,6 +20,7 @@
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/aura/web" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/hassankhan/config" />
           <root url="file://$MODULE_DIR$/vendor/katzgrau/klogger" />
           <root url="file://$MODULE_DIR$/vendor/lancerhe/php-crypt" />
           <root url="file://$MODULE_DIR$/vendor/mclkim/kaiser" />
@@ -30,6 +32,7 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/aura/web" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/hassankhan/config" />
           <root url="file://$MODULE_DIR$/vendor/katzgrau/klogger" />
           <root url="file://$MODULE_DIR$/vendor/lancerhe/php-crypt" />
           <root url="file://$MODULE_DIR$/vendor/mclkim/kaiser" />
