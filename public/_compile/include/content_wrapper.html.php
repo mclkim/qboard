@@ -1,4 +1,4 @@
-<?php /* Template_ 2.2.8 2016/05/24 09:13:20 C:\phpdev\workspace\qboard\public\_template\include\content_wrapper.html 000001066 */ ?>
+<?php /* Template_ 2.2.8 2016/05/30 08:53:15 C:\Users\Administrator\OneDrive\qboard\public\_template\include\content_wrapper.html 000001109 */ ?>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->

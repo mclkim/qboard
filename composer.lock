@@ -149,12 +149,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mclkim/kaiser.git",
-                "reference": "8c5006c53a5072ecd3bb6db0f51f200d2ee6bd12"
+                "reference": "6e72e60827b033c920d2731ec82d5f3c796becb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mclkim/kaiser/zipball/8c5006c53a5072ecd3bb6db0f51f200d2ee6bd12",
-                "reference": "8c5006c53a5072ecd3bb6db0f51f200d2ee6bd12",
+                "url": "https://api.github.com/repos/mclkim/kaiser/zipball/6e72e60827b033c920d2731ec82d5f3c796becb0",
+                "reference": "6e72e60827b033c920d2731ec82d5f3c796becb0",
                 "shasum": ""
             },
             "require": {
@@ -196,7 +196,7 @@
                 "framework",
                 "kaiser"
             ],
-            "time": "2016-05-23 06:28:50"
+            "time": "2016-05-28 05:35:19"
         },
         {
             "name": "pimple/pimple",
