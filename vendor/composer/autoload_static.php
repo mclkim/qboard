@@ -11,6 +11,10 @@ class ComposerStaticInitbd26d209d8fbb58f8659d96b65747ac2
     );
 
     public static $prefixLengthsPsr4 = array (
+        'N' => 
+        array (
+            'Noodlehaus\\' => 11,
+        ),
         'K' => 
         array (
             'Katzgrau\\KLogger\\' => 17,
@@ -24,6 +28,10 @@ class ComposerStaticInitbd26d209d8fbb58f8659d96b65747ac2
     );
 
     public static $prefixDirsPsr4 = array (
+        'Noodlehaus\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hassankhan/config/src',
+        ),
         'Katzgrau\\KLogger\\' => 
         array (
             0 => __DIR__ . '/..' . '/katzgrau/klogger/src',
