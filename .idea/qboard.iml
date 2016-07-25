@@ -26,8 +26,6 @@
           <root url="file://$MODULE_DIR$/vendor/mclkim/kaiser" />
           <root url="file://$MODULE_DIR$/vendor/pimple/pimple" />
           <root url="file://$MODULE_DIR$/vendor/psr/log" />
-          <root url="file://$MODULE_DIR$/vendor/usmanhalalit/pixie" />
-          <root url="file://$MODULE_DIR$/vendor/usmanhalalit/viocon" />
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/aura/web" />
@@ -38,8 +36,6 @@
           <root url="file://$MODULE_DIR$/vendor/mclkim/kaiser" />
           <root url="file://$MODULE_DIR$/vendor/pimple/pimple" />
           <root url="file://$MODULE_DIR$/vendor/psr/log" />
-          <root url="file://$MODULE_DIR$/vendor/usmanhalalit/pixie" />
-          <root url="file://$MODULE_DIR$/vendor/usmanhalalit/viocon" />
         </SOURCES>
       </library>
     </orderEntry>

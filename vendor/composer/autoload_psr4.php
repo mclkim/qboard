@@ -11,4 +11,5 @@ return array(
     'Kaiser\\' => array($vendorDir . '/mclkim/kaiser/src'),
     'Aura\\Web\\_Config\\' => array($vendorDir . '/aura/web/config'),
     'Aura\\Web\\' => array($vendorDir . '/aura/web/src'),
+    'App\\' => array($baseDir . '/app'),
 );

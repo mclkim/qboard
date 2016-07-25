@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7a7e59079fe01821224e7cd408d0e943",
-    "content-hash": "99c165e598bba557f08a764d5e6dec78",
+    "hash": "3dd8ffb7ced52b10444d69421779fc0d",
+    "content-hash": "d9e71b140b4ab5dc4a91db23c5560a87",
     "packages": [
         {
             "name": "aura/web",
@@ -206,12 +206,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mclkim/kaiser.git",
-                "reference": "8c5006c53a5072ecd3bb6db0f51f200d2ee6bd12"
+                "reference": "7515b23a55976978e3f0bf961123a30e393ce5cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mclkim/kaiser/zipball/8c5006c53a5072ecd3bb6db0f51f200d2ee6bd12",
-                "reference": "8c5006c53a5072ecd3bb6db0f51f200d2ee6bd12",
+                "url": "https://api.github.com/repos/mclkim/kaiser/zipball/7515b23a55976978e3f0bf961123a30e393ce5cc",
+                "reference": "7515b23a55976978e3f0bf961123a30e393ce5cc",
                 "shasum": ""
             },
             "require": {
@@ -219,8 +219,7 @@
                 "katzgrau/klogger": "^1.2",
                 "lancerhe/php-crypt": "^1.0",
                 "php": ">=5.4.0",
-                "pimple/pimple": "^3.0",
-                "usmanhalalit/pixie": "2.*@dev"
+                "pimple/pimple": "^3.0"
             },
             "require-dev": {
                 "monolog/monolog": "~1.11"
@@ -228,7 +227,8 @@
             "type": "library",
             "autoload": {
                 "classmap": [
-                    "src/Template_/Template_.class.php"
+                    "src/Template_/Template_.class.php",
+                    "src/Plupload/PluploadHandler.php"
                 ],
                 "files": [
                     "src/Helpers.php"
@@ -253,7 +253,7 @@
                 "framework",
                 "kaiser"
             ],
-            "time": "2016-05-23 06:28:50"
+            "time": "2016-07-25 08:39:50"
         },
         {
             "name": "pimple/pimple",
