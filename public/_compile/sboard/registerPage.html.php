@@ -1,4 +1,4 @@
-<?php /* Template_ 2.2.8 2016/05/27 09:58:28 C:\phpdev\workspace\qboard\public\_template\sboard\registerPage.html 000002609 */ ?>
+<?php /* Template_ 2.2.8 2016/05/30 08:53:21 D:\phpdev\workspace\qboard\public\_template\sboard\registerPage.html 000002609 */ ?>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->

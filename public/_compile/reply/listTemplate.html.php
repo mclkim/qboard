@@ -1,4 +1,4 @@
-<?php /* Template_ 2.2.8 2016/05/28 13:04:55 C:\phpdev\workspace\qboard\public\_template\reply\listTemplate.html 000000965 */ 
+<?php /* Template_ 2.2.8 2016/05/30 08:53:21 D:\phpdev\workspace\qboard\public\_template\reply\listTemplate.html 000000965 */ 
 $TPL_list_1=empty($TPL_VAR["list"])||!is_array($TPL_VAR["list"])?0:count($TPL_VAR["list"]);?>
 <?php if($TPL_list_1){foreach($TPL_VAR["list"] as $TPL_V1){?>
 <li class="replyLi" data-rno=<?php echo $TPL_V1["rno"]?>>

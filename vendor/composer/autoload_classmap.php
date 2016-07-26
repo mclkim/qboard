@@ -7,5 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Katzgrau\\KLogger\\Logger' => $vendorDir . '/katzgrau/klogger/src/Logger.php',
+    'PluploadHandler' => $vendorDir . '/mclkim/kaiser/src/Plupload/PluploadHandler.php',
     'Template_' => $vendorDir . '/mclkim/kaiser/src/Template_/Template_.class.php',
 );

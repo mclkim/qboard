@@ -1,4 +1,4 @@
-<?php /* Template_ 2.2.8 2016/05/27 09:58:57 C:\phpdev\workspace\qboard\public\_template\sboard\listPage.html 000007064 */ 
+<?php /* Template_ 2.2.8 2016/05/30 08:53:21 D:\phpdev\workspace\qboard\public\_template\sboard\listPage.html 000007064 */ 
 $TPL_list_1=empty($TPL_VAR["list"])||!is_array($TPL_VAR["list"])?0:count($TPL_VAR["list"]);?>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">

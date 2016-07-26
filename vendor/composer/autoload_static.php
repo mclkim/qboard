@@ -51,22 +51,11 @@ class ComposerStaticInitbd26d209d8fbb58f8659d96b65747ac2
     );
 
     public static $prefixesPsr0 = array (
-        'V' => 
-        array (
-            'Viocon' => 
-            array (
-                0 => __DIR__ . '/..' . '/usmanhalalit/viocon/src',
-            ),
-        ),
         'P' => 
         array (
             'Psr\\Log\\' => 
             array (
                 0 => __DIR__ . '/..' . '/psr/log',
-            ),
-            'Pixie' => 
-            array (
-                0 => __DIR__ . '/..' . '/usmanhalalit/pixie/src',
             ),
             'Pimple' => 
             array (
@@ -84,6 +73,7 @@ class ComposerStaticInitbd26d209d8fbb58f8659d96b65747ac2
 
     public static $classMap = array (
         'Katzgrau\\KLogger\\Logger' => __DIR__ . '/..' . '/katzgrau/klogger/src/Logger.php',
+        'PluploadHandler' => __DIR__ . '/..' . '/mclkim/kaiser/src/Plupload/PluploadHandler.php',
         'Template_' => __DIR__ . '/..' . '/mclkim/kaiser/src/Template_/Template_.class.php',
     );
 

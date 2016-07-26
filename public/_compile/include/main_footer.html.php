@@ -1,4 +1,4 @@
-<?php /* Template_ 2.2.8 2016/05/30 08:53:15 C:\Users\Administrator\OneDrive\qboard\public\_template\include\main_footer.html 000000396 */ ?>
+<?php /* Template_ 2.2.8 2016/05/30 08:53:15 D:\phpdev\workspace\qboard\public\_template\include\main_footer.html 000000384 */ ?>
 <footer class="main-footer">
     <div class="pull-right hidden-xs">
         <b>Version</b> 2.3.3
