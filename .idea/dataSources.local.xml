@@ -4,8 +4,8 @@
     <data-source name="MySQL - book_ex@localhost" uuid="a78f6fd3-df01-44f9-836b-701bf6e3258e">
       <secret-storage>master_key</secret-storage>
       <user-name>zerock</user-name>
-      <schema-pattern>book_ex.*</schema-pattern>
-      <default-schemas>book_ex.*</default-schemas>
+      <introspection-scope>book_ex:*</introspection-scope>
+      <resolve-scope>book_ex:*</resolve-scope>
     </data-source>
   </component>
 </project>

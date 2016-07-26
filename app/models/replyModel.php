@@ -7,9 +7,9 @@
  */
 namespace App\Models;
 
-use \Kaiser\Manager\DBManager;
+//use \Kaiser\Manager\DBManager;
 
-class replyModel extends DBManager
+class replyModel extends \Pixie\QueryBuilder\QueryBuilderHandler//DBManager
 {
     function createReply($reply)
     {

@@ -7,9 +7,9 @@
  */
 namespace App\Models;
 
-use \Kaiser\Manager\DBManager;
+//use \Kaiser\Manager\DBManager;
 
-class boardModel extends DBManager
+class boardModel extends \Pixie\QueryBuilder\QueryBuilderHandler//DBManager
 {
     function createRecord($board)
     {

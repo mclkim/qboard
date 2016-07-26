@@ -10,12 +10,6 @@ $container ['config'] = function ($c) {
     return new \Noodlehaus\Config (BASE_PATH . '/config/config.php');
 };
 
-// www.xtac.net
-$container ['template'] = function ($c) {
-    $tpl = new \Template_ ();
-// 	$tpl->caching = false;
-    return $tpl;
-};
 //https://github.com/usmanhalalit/pixie
 $container ['QB'] = function ($c) {
 //    $config = array(

@@ -53,7 +53,7 @@ class mysql extends Controller
     function query()
     {
         $pdo = $this->container->get('QB');
-        $dbm = new  \Kaiser\Manager\DBManager ($pdo);
+        $dbm = new  \Kaiser\Manager\DBManager (QB::pdo());
         var_dump($dbm->executePreparedQueryOne('select * from tbl_attach'));
     }
 
