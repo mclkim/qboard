@@ -2,9 +2,9 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="MySQL - book_ex@localhost" uuid="a78f6fd3-df01-44f9-836b-701bf6e3258e">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
       <secret-storage>master_key</secret-storage>
       <user-name>zerock</user-name>
-      <introspection-scope>book_ex:*</introspection-scope>
       <resolve-scope>book_ex:*</resolve-scope>
     </data-source>
   </component>

@@ -1,4 +1,4 @@
-<?php /* Template_ 2.2.8 2016/05/30 08:53:21 D:\phpdev\workspace\qboard\public\_template\sboard\readPage.html 000014185 */ ?>
+<?php /* Template_ 2.2.8 2016/09/06 09:15:25 D:\phpdev\workspace\qboard\public\_template\sboard\readPage.html 000014179 */ ?>
 <script type="text/javascript" src="_template/js/upload.js"></script>
 <?php if(false){?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.js"></script>
@@ -178,9 +178,7 @@
 
 <script>
 
-    var bno = <?php echo $TPL_VAR["boardVO"]["bno"]?>
-
-    ;
+    var bno = '<?php echo $TPL_VAR["boardVO"]["bno"]?>';
     var replyPage = 1;
 
     function getPage(pageInfo) {
